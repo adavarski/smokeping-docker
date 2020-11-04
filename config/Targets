@@ -1,0 +1,43 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website of Example Company. \
+         Here you will learn all about the latency of our network.
+
++ InternetSites
+
+menu = Internet Sites
+title = Internet Sites
+
+++ LAB-SanMateo
+menu = LAB-1
+title = LAB-1
+host = lab-sm.infra.example.com
+
+++ LAB-Sofia
+menu = LAB-Sofia
+title = LAB-Sofia
+host = lab-sofia.infra.example.com
+
+++ Jfrog-AWS
+menu = Jfrog AWS
+title = Jfrog AWS
+probe = Curl
+host = artifactory.infra.example.com
+
++ US
+
+menu = US Connectivity
+title =  US Connectivity
+
+++ US_California
+menu = US California
+title = The Motherland
+
+++ US_Boston
+menu = US Boston
+title = The Fatherland
+
